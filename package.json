@@ -17,6 +17,9 @@
     "localization",
     "internationalization"
   ],
+  "files": [
+    "lib"
+  ],
   "main": "./lib/LocalizedStrings.js",
   "types": "./lib/LocalizedStrings.d.ts",
   "author": "Stefano Falda <stefano.falda@gmail.com> (http://www.babisoft.com)",
