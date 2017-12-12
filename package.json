@@ -1,11 +1,13 @@
 {
   "name": "react-localization",
   "version": "0.0.13",
-  "description": "Simple module to localize the React interface using the same syntax used in the ReactNativeLocalization module, use 'npm run build' before publishing",
+  "description":
+    "Simple module to localize the React interface using the same syntax used in the ReactNativeLocalization module, use 'npm run build' before publishing",
   "scripts": {
     "babel-version": "babel --version",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src/LocalizedStrings.js --presets babel-preset-es2015,babel-preset-stage-2 --out-file ./lib/LocalizedStrings.js"
+    "build":
+      "babel ./src/LocalizedStrings.js --presets babel-preset-es2015,babel-preset-stage-2 --out-file ./lib/LocalizedStrings.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
     "localization",
     "internationalization"
   ],
+  "files": ["lib"],
   "main": "./lib/LocalizedStrings.js",
   "types": "./lib/LocalizedStrings.d.ts",
   "author": "Stefano Falda <stefano.falda@gmail.com> (http://www.babisoft.com)",
